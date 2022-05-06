@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border:0;
+}
+
+body{
+    font-family: "Helvetica Nue",Helvetica,Aria, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #333;
+}
+#main{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h3{
+    font-size: 24px;
+    padding-bottom: 9px;
+    padding-top: 15px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #376a89;
+    font-weight: 500;
+}
+
+label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.conteudo-form{
+    padding: 4px;
+    margin-bottom: 38px;
+    display: block;
+    width: 100%; 
+    height: 34px;
+    box-sizing: border-box;
+}
+.conteudo-form input, .conteudo-form select {
+    border: 1px solid #ccc;
+    width: 100%; 
+    font-size: 14px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 /8%);
+}
+button{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#btnSalvar{
+    background-image: linear-gradient(to bottom, #5cb85c 0, #419641 100%);
+    color: #fff;
+}
+#btnLimpar{
+    background-image: linear-gradient(to bottom, #337ab7 0, #265a88 100%);
+    color: #fff;
+}
+
+.col4{
+    width: 33.3333%;
+    float: left;
+}
+
+.col6{
+    width: 50%;
+    float: left;
+}
+
+.col3{
+    width:25%;
+    float: left;
+}
+
+nav{
+    background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
+    top:0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+#menu{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    box-sizing:  border-box;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #9d9d9d;
+    font-size: 16px;
+    padding-right: 10px;
+    box-sizing:  border-box;
+}

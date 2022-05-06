@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario HTML - Padrão</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bibliotecas/layout.css">
+    </head>
+    <body>
+        <nav>
+            <div id="menu">
+                <a href="#">Cadastro de Alunos</a>
+                <a href="#">Início</a>
+                <a href="#">Opções</a>
+                <a href="#">Perfil</a>
+                <a href="#">Ajuda</a>
+            </div>
+        </nav>
+        <form action="teste.jsp" method="POST">
+            <div id="main">
+                <h3>Adicionar Aluno</h3>
+                <div class="conteudo-form col4">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" value="" title="Nome">
+                </div>
+                <div class="conteudo-form col4">
+                    <label for="dataNascimento">Data de Nascimento:</label>
+                    <input type="date" id="dataNascimento" name="dataNascimento"
+                           value="" title="Data de Nascimento">
+                </div>
+                <div class="conteudo-form col4">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo" title="Sexo">
+                        <option value="A" disabled selected>== Selecione ==</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                </div>
+                <div class="conteudo-form col6">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco"
+                           value="" title="Endereço">
+                </div>
+                <div class="conteudo-form col6">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro"
+                           value="" title="Bairro">
+                </div>
+                <div class="conteudo-form col6">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade"
+                           value="" title="Cidade">
+                </div>
+                <div class="conteudo-form col6">
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado" name="estado"
+                           value="" title="Estado">
+                </div>
+                <div class="conteudo-form col3">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf"
+                           value="" title="CPF">
+                </div>
+                <div class="conteudo-form col3">
+                    <label for="rg">RG:</label>
+                    <input type="text" id="rg" name="rg"
+                           value="" title="RG">
+                </div>
+                <div class="conteudo-form col3">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" name="telefone"
+                           value="" title="Telefone">
+                </div>
+                <div class="conteudo-form col3">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email"
+                           value="" title="E-mail">
+                </div>
+                <div class="conteudo-form">
+                    <button type="submit" id="btnSalvar" >Enviar</button>
+                    <button type="reset" id="btnLimpar">Limpar</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
